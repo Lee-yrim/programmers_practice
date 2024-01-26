@@ -13,7 +13,7 @@ public class Test240122_01 {
 		ArrayList<Integer> list = new ArrayList<>();
 
 		HashMap<String, Integer> map = new HashMap<>();
-		int[] answer = {};
+//		int[] answer = new int[];
 
 		// privacies를 .이랑 공백기준으로 나누고 각각 저장(반복돌리면서)
 		// terms도 공백기준으로 나눠서 저장하는데 해시맵? 인덱스 잇으니까? 좋은점이 잇는건가
@@ -60,14 +60,17 @@ public class Test240122_01 {
 			}
 		} // for i
 		
-		System.out.println(list);
 		
 //		if (list.size()>0) {
 //			
 //		}
+		int[] answer = new int[list.size()];
+
 		for (int j = 0; j < list.size(); j++) {
-			answer[j] = list.get(j);
+			answer[j] = list.get(j)+1;
 		}
+		System.out.println(answer);
+
 //		System.out.println(answer);
 	}
 
