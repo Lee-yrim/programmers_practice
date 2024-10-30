@@ -27,5 +27,5 @@ public class Test240202_02 {
 		System.out.println(Arrays.toString(answer));
 		
 	}//main
-
+// git test
 }
