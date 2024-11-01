@@ -15,7 +15,7 @@ public class Test231129_02 {
 			cnt=(n/a)*b;
 			answer+=cnt;
 		}
-		
+		System.out.println(answer);
 	}
 
 }
