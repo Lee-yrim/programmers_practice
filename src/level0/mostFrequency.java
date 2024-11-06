@@ -26,7 +26,7 @@ public class mostFrequency {
     static class Solution {
         public int solution(int[] array) {
             int[] count = new int[1000];
-            //array돌면서 해당 숫자 확인하고 1이면 freq배열의 i번째 숫자를 +1시킴
+
             for (int i = 0; i < array.length; i++) {
                 int j = array[i];
                 count[j]++;
